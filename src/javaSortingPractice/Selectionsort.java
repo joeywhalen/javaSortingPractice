@@ -10,7 +10,7 @@ public class Selectionsort {
     Integer[] array = new Integer[] {12, 13, 24, 10, 3, 6, 90, 70};
     
     //Let's sort using Selection Sort
-    selectioonSort(array, 0, array.length);
+    selectionSort(array, 0, array.length);
     
     // Verify sorted array
     System.out.println(Arrays.toString(array));
